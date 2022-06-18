@@ -6,10 +6,10 @@ module.exports = {
   clientSecret: process.env.clientSecret || "", //Client Secret of the bot
   port: 4200, //Port of the API and Dashboard
   scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
-  serverDeafen: true, //If you want bot to stay deafened
+  serverDeafen: false, //If you want bot to stay deafened
   defaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
   supportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //Bug Report Link
+  Issues: "https://github.com/jareddo-kun/Discord-MusicBot/issues", //Bug Report Link
   permissions: 277083450689, //Bot Inviting Permissions
   disconnectTime: 30000, //How long should the bot wait before disconnecting from the voice channel. in miliseconds. set to 1 for instant disconnect.
   alwaysplay: true, // when set to true music will always play no matter if theres no one in voice channel.
